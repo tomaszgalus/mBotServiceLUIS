@@ -1,0 +1,132 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "mBotService",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AcceptAll"
+    },
+    {
+      "name": "AccountBalance"
+    },
+    {
+      "name": "AllAcountsBalance"
+    },
+    {
+      "name": "Goodbye"
+    },
+    {
+      "name": "Hello"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Payments"
+    },
+    {
+      "name": "Payroll"
+    },
+    {
+      "name": "RejectAll"
+    },
+    {
+      "name": "Visa"
+    }
+  ],
+  "entities": [
+    {
+      "name": "amount"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "goodbye",
+      "intent": "Goodbye",
+      "entities": []
+    },
+    {
+      "text": "accept all",
+      "intent": "AcceptAll",
+      "entities": []
+    },
+    {
+      "text": "give me visa",
+      "intent": "Visa",
+      "entities": []
+    },
+    {
+      "text": "reject all",
+      "intent": "RejectAll",
+      "entities": []
+    },
+    {
+      "text": "give me the payroll",
+      "intent": "Payroll",
+      "entities": []
+    },
+    {
+      "text": "give me the list of transactions",
+      "intent": "Payroll",
+      "entities": []
+    },
+    {
+      "text": "hi gina!",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "what is the current balance on the company accounts",
+      "intent": "AccountBalance",
+      "entities": []
+    },
+    {
+      "text": "tell me the balance of all accounts",
+      "intent": "AllAcountsBalance",
+      "entities": []
+    },
+    {
+      "text": "tell me balance of all accounts",
+      "intent": "AllAcountsBalance",
+      "entities": []
+    },
+    {
+      "text": "are any transactions waiting for my authorisation",
+      "intent": "Payments",
+      "entities": []
+    },
+    {
+      "text": "are there any transactions waiting for my authorisation",
+      "intent": "Payments",
+      "entities": []
+    },
+    {
+      "text": "get me the visa",
+      "intent": "Visa",
+      "entities": []
+    },
+    {
+      "text": "get me a visa",
+      "intent": "Visa",
+      "entities": []
+    },
+    {
+      "text": "yes i want one",
+      "intent": "Visa",
+      "entities": []
+    },
+    {
+      "text": "goodbye gina",
+      "intent": "Goodbye",
+      "entities": []
+    }
+  ]
+}
