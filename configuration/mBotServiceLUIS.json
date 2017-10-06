@@ -21,6 +21,9 @@
       "name": "Hello"
     },
     {
+      "name": "Mastercard"
+    },
+    {
       "name": "None"
     },
     {
@@ -31,9 +34,6 @@
     },
     {
       "name": "RejectAll"
-    },
-    {
-      "name": "Visa"
     }
   ],
   "entities": [
@@ -59,8 +59,8 @@
       "entities": []
     },
     {
-      "text": "give me visa",
-      "intent": "Visa",
+      "text": "give me mastercard",
+      "intent": "Mastercard",
       "entities": []
     },
     {
@@ -109,23 +109,33 @@
       "entities": []
     },
     {
-      "text": "get me the visa",
-      "intent": "Visa",
-      "entities": []
-    },
-    {
-      "text": "get me a visa",
-      "intent": "Visa",
-      "entities": []
-    },
-    {
       "text": "yes i want one",
-      "intent": "Visa",
+      "intent": "Mastercard",
       "entities": []
     },
     {
       "text": "goodbye gina",
       "intent": "Goodbye",
+      "entities": []
+    },
+    {
+      "text": "hello gina!",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "yes i want newone",
+      "intent": "Mastercard",
+      "entities": []
+    },
+    {
+      "text": "get me mastercard",
+      "intent": "Mastercard",
+      "entities": []
+    },
+    {
+      "text": "give me a mastercard",
+      "intent": "Mastercard",
       "entities": []
     }
   ]
